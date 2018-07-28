@@ -575,9 +575,6 @@ button:focus {
 	}
 }
 
-
-
-
 #packages-slides .packages-info{
 	font-size: 15px;
 	font-weight: bold;
@@ -622,6 +619,20 @@ button:focus {
 	width: 100%; 
 	height: auto; 
 }
+
+.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; top: 23%; }
+
+.carousel-control:hover, .carousel-control:focus, .carousel-control:active { color: #333; }
+
+.carousel-caption, .carousel-control .fa { font: normal normal normal 30px/26px FontAwesome; }
+.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
+
+.carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
+
+
+
+
+
 
 /*-------------------------------------
 		1. About (Reset code)
