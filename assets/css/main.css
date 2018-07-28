@@ -588,7 +588,6 @@ button:focus {
 	font-family: 'Brandon_bld', serif;
 }
 
-
 #packages-info .packages-info{
 	font-size: 15px;
 	font-weight: bold;
@@ -630,6 +629,12 @@ button:focus {
 #thumbcarousel .carousel-item img { 
 	width: 100%; 
 	height: auto; 
+}
+
+#thumbcarousel .carousel-inner{
+	width: auto;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 #thumbcarousel .carousel-control-prev{ 
