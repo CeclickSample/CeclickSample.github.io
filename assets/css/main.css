@@ -527,72 +527,86 @@ button:focus {
 /*-------------------------------------
 		1.Packages  (Reset code)
 --------------------------------------*/
-
-.packages-container {
-    width: 100%;
-	max-width: 1140px;
-	display: flex;
-	flex-wrap: nowrap;
-	margin-left: 19%;
-	margin-right: 19%;
-	-webkit-box-align: center;
-	align-items: center;
+#packages-slides{
+	height:100vh;
 }
 
-.packages-slide {
+.left-wrapper, .right-wrapper{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container-fluid {
+    padding-left:0;
+	padding-right:0;
+}
+
+.packages-desc-wrapper{
+	padding-left:30%;
+	padding-right:5%;
 	height: 100%;
-	width: 40%;
-	overflow: hidden;
-	padding-right: 0;
-	position: fixed;
-	top: 0;
-	right: 0;
 }
 
-#packages-slides .packages-title{
-	margin-top: 200px;
+.packages-carousel-wrapper{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#packages-slides .carousel-image{
+	width: 40%;
+	height: 100%;
+}
+
+#packages-slides .carousel{
+	width: 100%;
+	height: 100%;
+}
+
+#packages-slides .carousel-inner{
+	width: 100%;
+	height: 100%;
+}
+
+#packages-slides .carousel-item{
+	width: 40%;
+	height: 100%;
+}
+
+#packages-info .packages-title{
+	padding-top: 200px;
 	font-size: 60px;
 	font-weight: bold;
 	color: #EF4423;
 	letter-spacing: 3px;
-	margin-bottom: 30px;
+	padding-bottom: 30px;
 	font-family: 'Brandon_bld', serif;
 }
 
-@media screen and (max-width: 980px) {
-	
-	.packages-container {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-	
-	#packages-slides .packages-title{
-		position: relative;
-	}
-	.packages-slide {
-		width:85%;
-		position: relative;
-	}
-}
 
-#packages-slides .packages-info{
+#packages-info .packages-info{
 	font-size: 15px;
 	font-weight: bold;
 	color: #EF4423;
 	letter-spacing: 2px;
-	margin-bottom: 10px;
+	padding-bottom: 10px;
 	font-family: 'Brandon_bld', serif;
 }
 
-#packages-slides .packages-desc {
+#packages-info .packages-desc {
   line-height: 26px;
   color: #EF4423;
   letter-spacing: 2px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #thumbcarousel { 
-	margin: 30px 0 0;
+	padding: 30px 0 0;
 	text-align:center;
 }
 
