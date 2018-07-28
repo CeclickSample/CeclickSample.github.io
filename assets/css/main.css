@@ -593,46 +593,44 @@ button:focus {
 
 #thumbcarousel { 
 	margin: 30px 0 0;
+	text-align:center;
 }
 
-#thumbcarousel .item .thumb { 
+#thumbcarousel .carousel-item .thumb { 
 	padding: 5px;
+	vertical-align:middle;
+	width: 22%;
 	border-top: 2px solid transparent;
-	border-bottom: 2px solid transparent;
-	width: 20%; 
-	display: inline-block; 
-	vertical-align: middle; 
+	border-bottom: 2px solid transparent;	
+	display: inline-block;
 	cursor: pointer;
-	left:0;
-    margin-right: 28px;
 }
 
-#thumbcarousel .item .thumb:hover,
-#thumbcarousel .item .thumb:focus,
-#thumbcarousel .item .thumb.active { 
-  padding: 5px;
+#thumbcarousel .carousel-item .thumb:hover,
+#thumbcarousel .carousel-item .thumb:focus,
+#thumbcarousel .carousel-item .thumb.active { 
   border-top: 2px solid #EF4423;
   border-bottom: 2px solid #EF4423;
 }
 
-#thumbcarousel .item img { 
+#thumbcarousel .carousel-item img { 
 	width: 100%; 
 	height: auto; 
 }
 
-.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; top: 23%; }
+#thumbcarousel .carousel-control-prev{ 
+	color: #EF4423;
+	font-size: 30px;
+	width: auto;
+	float:right;
+}
 
-.carousel-control:hover, .carousel-control:focus, .carousel-control:active { color: #333; }
-
-.carousel-caption, .carousel-control .fa { font: normal normal normal 30px/26px FontAwesome; }
-.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
-
-.carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
-
-
-
-
-
+#thumbcarousel .carousel-control-next { 
+	color: #EF4423;
+	font-size: 30px;
+	width: auto;
+	float:left;
+}
 
 /*-------------------------------------
 		1. About (Reset code)
